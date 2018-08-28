@@ -1,0 +1,61 @@
+swagger: "2.0"
+x-collection-name: AWS EC2
+x-complete: 1
+info:
+  title: AWS EC2 API
+  version: 1.0.0
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /?Action=ReleaseAddress:
+    get:
+      summary: Release Address
+      description: Releases the specified Elastic IP address.
+      operationId: releaseaddress
+      x-api-path-slug: actionreleaseaddress-get
+      parameters:
+      - in: query
+        name: DryRun
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,       and provides an error response
+        type: string
+      - in: query
+        name: PublicIp
+        description: The Elastic IP address
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - IP Address
+  /?Action=ReleaseHosts:
+    get:
+      summary: Release Hosts
+      description: When you no longer want to use an On-Demand Dedicated Host it can
+        be released.
+      operationId: releasehosts
+      x-api-path-slug: actionreleasehosts-get
+      parameters:
+      - in: query
+        name: DhcpOptionsId
+        description: The ID of the DHCP options set, or default to associate         no
+          DHCP options with the VPC
+        type: string
+      - in: query
+        name: DryRun
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,        and provides an error response
+        type: string
+      - in: query
+        name: VpcId
+        description: The ID of the VPC
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Hosts

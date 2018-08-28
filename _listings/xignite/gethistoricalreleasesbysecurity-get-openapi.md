@@ -15,6 +15,46 @@ produces:
 consumes:
 - application/json
 paths:
+  /GetEventsReleasedForRange:
+    get:
+      summary: Get Events Released For Range
+      description: Get events released for the specified range.
+      operationId: postGeteventsreleasedforrange
+      x-api-path-slug: geteventsreleasedforrange-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Events
+      - Released
+      - Range
+  /GetEventsReleasedForRangeLength:
+    get:
+      summary: Get Events Released For Range Length
+      description: Get events released for the date specified and next number of days
+        past it.
+      operationId: postGeteventsreleasedforrangelength
+      x-api-path-slug: geteventsreleasedforrangelength-get
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Market Data
+      - Events
+      - Released
+      - Range
+      - Length
   /GetTopReleasesBySecurity:
     get:
       summary: Get Top Releases By Security

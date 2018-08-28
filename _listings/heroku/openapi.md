@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Heroku
 x-complete: 1
@@ -118,4 +117,3 @@ paths:
       tags:
       - Application
       - Releases
----

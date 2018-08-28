@@ -8,134 +8,162 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "64"
 tags: Releases
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/github/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Github Get Repos Owner Repo Releases
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Releases
+  x-api-slug: reposownerreporeleases-get
   description: Users with push access to the repository will receive all releases
     (i.e., published releases and draft releases). Users with pull access will receive
     published releases only
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/releases
-  tags: Repos, Owner, Repo, Releases
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/github/reposownerreporeleases-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/github/reposownerreporeleases-get-openapi.md
-- name: Github Add Repos Owner Repo Releases
-  x-api-slug: github
+- name: GitHub - Add Repos Owner Repo Releases
+  x-api-slug: reposownerreporeleases-post
   description: |-
     Create a release
     Users with push access to the repository can create a release.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/releases
-  tags: Repos, Owner, Repo, Releases
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/github/reposownerreporeleases-post-openapi.md
-- name: Github Delete Repos Owner Repo Releases Assets
-  x-api-slug: github
+- name: GitHub - Delete Repos Owner Repo Releases Assets
+  x-api-slug: reposownerreporeleasesassetsid-delete
   description: Delete a release asset
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/releases/assets/{id}
-  tags: Repos, Owner, Repo, Releases, Assets
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/github/reposownerreporeleasesassetsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/github/reposownerreporeleasesassetsid-delete-openapi.md
-- name: Github Get Repos Owner Repo Releases Assets
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Releases Assets
+  x-api-slug: reposownerreporeleasesassetsid-get
   description: Get a single release asset
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/releases/assets/{id}
-  tags: Repos, Owner, Repo, Releases, Assets
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/github/reposownerreporeleasesassetsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/github/reposownerreporeleasesassetsid-get-openapi.md
-- name: Github Patch Repos Owner Repo Releases Assets
-  x-api-slug: github
+- name: GitHub - Patch Repos Owner Repo Releases Assets
+  x-api-slug: reposownerreporeleasesassetsid-patch
   description: |-
     Edit a release asset
     Users with push access to the repository can edit a release asset.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/releases/assets/{id}
-  tags: Repos, Owner, Repo, Releases, Assets
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/github/reposownerreporeleasesassetsid-patch-openapi.md
-- name: Github Delete Repos Owner Repo Releases
-  x-api-slug: github
+- name: GitHub - Delete Repos Owner Repo Releases
+  x-api-slug: reposownerreporeleasesid-delete
   description: Users with push access to the repository can delete a release.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/releases/{id}
-  tags: Repos, Owner, Repo, Releases
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/github/reposownerreporeleasesid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/github/reposownerreporeleasesid-delete-openapi.md
-- name: Github Get Repos Owner Repo Releases
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Releases
+  x-api-slug: reposownerreporeleasesid-get
   description: Get a single release
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/releases/{id}
-  tags: Repos, Owner, Repo, Releases
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/github/reposownerreporeleasesid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/github/reposownerreporeleasesid-get-openapi.md
-- name: Github Patch Repos Owner Repo Releases
-  x-api-slug: github
+- name: GitHub - Patch Repos Owner Repo Releases
+  x-api-slug: reposownerreporeleasesid-patch
   description: Users with push access to the repository can edit a release
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/releases/{id}
-  tags: Repos, Owner, Repo, Releases
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/github/reposownerreporeleasesid-patch-openapi.md
-- name: Github Get Repos Owner Repo Releases  Assets
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Releases  Assets
+  x-api-slug: reposownerreporeleasesidassets-get
   description: List assets for a release
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/releases/{id}/assets
-  tags: Repos, Owner, Repo, Releases, , Assets
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/github/reposownerreporeleasesidassets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/github/reposownerreporeleasesidassets-get-openapi.md
-- name: Github
-  x-api-slug: github
-  description: GitHub brings together the worlds largest community of developers to
-    discover, share, and build better software. From open source projects to private
-    team repositories, were your all-in-one platform for collaborative development.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
-  humanURL: https://github.com
-  baseURL: https://api.github.com//
-  tags: Releases
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/github/openapi.md
 x-common:
 - type: x--net-library
   url: https://github.com/octokit/octokit.net
+- type: x-api-gallery
+  url: http://giphy.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://github.stack.network
 - type: x-base
   url: https://api.github.com
 - type: x-blog

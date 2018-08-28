@@ -7,78 +7,168 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku
 x-kinRank: "8"
 x-alexaRank: "6044"
 tags: Releases
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/heroku/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Heroku Parameters Application Releases
-  x-api-slug: heroku
+- name: Heroku - Parameters Application Releases
+  x-api-slug: appsappreleases-parameters
   description: Parameters application releases.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
   humanURL: http://heroku.com
-  baseURL: https://api.heroku.com////apps/{app}/releases
-  tags: Parameters, Application, Releases
+  baseURL: https://api.heroku.com//
+  tags: PaaS, My API Stack, API LIfeyclessss, Command Line Interface, Issues, Issues
+    Example, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, Developers, Code, Compute, Getting Started Example, Technology,
+    SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
+    Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/heroku/appsappreleases-parameters-openapi.md
-- name: Heroku Get Application Releases
-  x-api-slug: heroku
+- name: Heroku - Get Application Releases
+  x-api-slug: appsappreleases-get
   description: List releases for an app.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
   humanURL: http://heroku.com
-  baseURL: https://api.heroku.com////apps/{app}/releases
-  tags: Application, Releases
+  baseURL: https://api.heroku.com//
+  tags: PaaS, My API Stack, API LIfeyclessss, Command Line Interface, Issues, Issues
+    Example, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, Developers, Code, Compute, Getting Started Example, Technology,
+    SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
+    Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/heroku/appsappreleases-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/heroku/appsappreleases-get-openapi.md
-- name: Heroku Add Application Releases
-  x-api-slug: heroku
+- name: Heroku - Add Application Releases
+  x-api-slug: appsappreleases-post
   description: Add application releases.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
   humanURL: http://heroku.com
-  baseURL: https://api.heroku.com////apps/{app}/releases
-  tags: Application, Releases
+  baseURL: https://api.heroku.com//
+  tags: PaaS, My API Stack, API LIfeyclessss, Command Line Interface, Issues, Issues
+    Example, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, Developers, Code, Compute, Getting Started Example, Technology,
+    SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
+    Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/heroku/appsappreleases-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/heroku/appsappreleases-post-openapi.md
-- name: Heroku Parameters Application Releases
-  x-api-slug: heroku
+- name: Heroku - Parameters Application Releases
+  x-api-slug: appsappreleasesrelease-parameters
   description: Parameters application releases.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
   humanURL: http://heroku.com
-  baseURL: https://api.heroku.com////apps/{app}/releases/{release}
-  tags: Parameters, Application, Releases
+  baseURL: https://api.heroku.com//
+  tags: PaaS, My API Stack, API LIfeyclessss, Command Line Interface, Issues, Issues
+    Example, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, Developers, Code, Compute, Getting Started Example, Technology,
+    SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
+    Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/heroku/appsappreleasesrelease-parameters-openapi.md
-- name: Heroku Get Application Releases
-  x-api-slug: heroku
+- name: Heroku - Get Application Releases
+  x-api-slug: appsappreleasesrelease-get
   description: Get application releases.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
   humanURL: http://heroku.com
-  baseURL: https://api.heroku.com////apps/{app}/releases/{release}
-  tags: Application, Releases
+  baseURL: https://api.heroku.com//
+  tags: PaaS, My API Stack, API LIfeyclessss, Command Line Interface, Issues, Issues
+    Example, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, Developers, Code, Compute, Getting Started Example, Technology,
+    SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
+    Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/heroku/appsappreleasesrelease-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/heroku/appsappreleasesrelease-get-openapi.md
-- name: Heroku
-  x-api-slug: heroku
-  description: Learn about building, deploying and managing your apps on Heroku.
+- name: Heroku - Parameters Application Releases
+  x-api-slug: appsappreleases-parameters
+  description: Parameters application releases.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
   humanURL: http://heroku.com
   baseURL: https://api.heroku.com//
-  tags: Releases
+  tags: PaaS, My API Stack, API LIfeyclessss, Command Line Interface, Issues, Issues
+    Example, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, Developers, Code, Compute, Getting Started Example, Technology,
+    SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
+    Service API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/heroku/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/heroku/appsappreleases-parameters-openapi.md
+- name: Heroku - Get Application Releases
+  x-api-slug: appsappreleases-get
+  description: List releases for an app.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
+  baseURL: https://api.heroku.com//
+  tags: PaaS, My API Stack, API LIfeyclessss, Command Line Interface, Issues, Issues
+    Example, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, Developers, Code, Compute, Getting Started Example, Technology,
+    SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/heroku/appsappreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/heroku/appsappreleases-get-openapi.md
+- name: Heroku - Add Application Releases
+  x-api-slug: appsappreleases-post
+  description: Add application releases.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
+  baseURL: https://api.heroku.com//
+  tags: PaaS, My API Stack, API LIfeyclessss, Command Line Interface, Issues, Issues
+    Example, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, Developers, Code, Compute, Getting Started Example, Technology,
+    SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/heroku/appsappreleases-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/heroku/appsappreleases-post-openapi.md
+- name: Heroku - Parameters Application Releases
+  x-api-slug: appsappreleasesrelease-parameters
+  description: Parameters application releases.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
+  baseURL: https://api.heroku.com//
+  tags: PaaS, My API Stack, API LIfeyclessss, Command Line Interface, Issues, Issues
+    Example, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, Developers, Code, Compute, Getting Started Example, Technology,
+    SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/heroku/appsappreleasesrelease-parameters-openapi.md
+- name: Heroku - Get Application Releases
+  x-api-slug: appsappreleasesrelease-get
+  description: Get application releases.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/211-heroku.jpg
+  humanURL: http://heroku.com
+  baseURL: https://api.heroku.com//
+  tags: PaaS, My API Stack, API LIfeyclessss, Command Line Interface, Issues, Issues
+    Example, Federal Government, Federal Government, Federal Government, Federal Government,
+    Stack Network, Developers, Code, Compute, Getting Started Example, Technology,
+    SaaS, API Provider, API Service Provider, Databases, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/heroku/appsappreleasesrelease-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/releases/master/_listings/heroku/appsappreleasesrelease-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://here.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://heroku.stack.network
 - type: x-base
   url: https://api.heroku.com
 - type: x-blog

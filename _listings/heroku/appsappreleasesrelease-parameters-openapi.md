@@ -90,6 +90,34 @@ paths:
       - Parameters
       - Application
       - Releases
+    get:
+      summary: Get Application Releases
+      description: Get application releases.
+      operationId: getAppsAppReleasesRelease
+      x-api-path-slug: appsappreleasesrelease-get
+      parameters:
+      - in: query
+        name: Accept
+        description: Content type
+      - in: header
+        name: Accept
+        description: Content type
+      - in: query
+        name: app
+        description: The app name
+      - in: path
+        name: app
+      - in: query
+        name: release
+        description: The release name
+      - in: path
+        name: release
+      responses:
+        200:
+          description: OK
+      tags:
+      - Application
+      - Releases
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
